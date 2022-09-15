@@ -1,25 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
+    <meta charset="UTF-8" />
     <title>Страничка Сергея Комарова</title>
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-    <h1>Друзья, всем привет!</h1>
-    <p>Меня зовут Сергей Комаров, я it-специалист.</p>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="./img/my_foto.jpg" alt="Сергей Комаров" class="info-foto" />
+        <div class="info-text">
+          <h1>Друзья, всем привет!</h1>
+          <p>Меня зовут <b>Сергей Комаров</b>, я it-специалист.</p>
+          <h4>Мои социальные сети:</h4>
 
-    <img src="./img/my_foto.jpg" alt="Сергей Комаров" width="200px">
+          <a href="https://t.me/SergKomarov" target="_blank">Telegram</a>
+          |
+          <a href="https://vk.com/komarov.serg" target="_blank">VK</a>
+          |
+          <a href="https://instagram.com/sergiokomarov24" target="_blank"
+            >Instagram</a
+          >
+        </div>
+      </div>
 
-    <a href="./call.html" target="_blank">
-        Могу проконсультировать по it вопросу</a>
+      <div class="card bg-yellow">
+        <h2>Опыт работы:</h2>
+        <table class="table">
+          <tr>
+            <td>АО "Россельхозбанк"</td>
+            <td>Ведущий инженер отдела информационного обеспечения</td>
+            <td>2013 - now</td>
+          </tr>
+          <tr>
+            <td>Филиал в РМЭ ОАО "Ростелеком"</td>
+            <td>
+              Инженер группы технической поддержки <br />
+              Регионального центра управления сетями связи
+            </td>
+            <td>2011 - 2013</td>
+          </tr>
+          <tr>
+            <td>Филиал в РМЭ ОАО "Волгателеком"</td>
+            <td>Инженер 2 категории Центра радиотелефонных технологий</td>
+            <td>2006 - 2011</td>
+          </tr>
+        </table>
+      </div>
 
-    <h2>Мои социальные сети:</h2>
-    <ul>
-        <li>Telegram</li>
-        <li>Instagram</li>
-        <li>VK</li>
-    </ul>
-</body>
+      <div class="card bg-green">
+        <h2>Мои хобби:</h2>
+        <ol class="list">
+          <li>футбол</li>
+          <li>шахматы</li>
+          <li>чтение</li>
+          <li>путешествия</li>
+        </ol>
+      </div>
 
+      <div class="card bg-red">
+        <h2>Курсы:</h2>
+        <ul class="list">
+          <li>
+            Microsoft Virtual Academy, "Основы построения доменной сети", 2015
+          </li>
+          <li>
+            Корпоративный университет РСХБ, "Основы менеджмента. Инструменты
+            оперативного управления", 2020
+          </li>
+          <li>
+            АНО ДПО "Инфосфера", "Веб-разработка и сайтостроение" в объеме 54
+            академических часа, 2021
+          </li>
+        </ul>
+      </div>
+
+      <a href="./call.html" target="_blank">
+        Могу проконсультировать по it вопросу</a
+      >
+    </div>
+  </body>
 </html>
