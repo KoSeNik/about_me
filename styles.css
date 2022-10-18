@@ -37,13 +37,6 @@ a:visited {
   margin-bottom: 20px;
 }
 
-@media (max-width: 650px) {
-  .info {
-    display: block;
-    text-align: center;
-  }
-}
-
 .info p {
   color: #86898f;
   margin: 0;
@@ -62,6 +55,16 @@ a:visited {
 
 .info-text h4 {
   margin-bottom: 10px;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+  .info-text {
+    margin-left: 0;
+  }
 }
 
 .bg-yellow {
